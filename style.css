@@ -10,7 +10,7 @@
   --bg: #ECEAE5;
   --bg2: #E4E1DB;
   --text: #1a1a18;
-  --muted: #9a9890;
+  --muted: #7e7c75;
   --border: #d0cdc7;
 }
 
@@ -183,7 +183,7 @@ nav.scrolled {
   font-size: 9.5px;
   font-weight: 300;
   letter-spacing: 0.2em;
-  color: var(--muted);
+  color: #5e5c56;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   z-index: 2;
@@ -202,20 +202,23 @@ nav.scrolled {
 
 .stat-number {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 32px;
+  font-size: 44px;
   font-weight: 200;
   line-height: 1;
 }
 
 .stat-number sup {
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 200;
+
 }
 
+
 .stat-label {
-  font-size: 10.5px;
+  font-size: 15px;
   font-weight: 300;
-  color: var(--muted);
+  color: #7e7c75;
+  ;
   margin-top: 6px;
   letter-spacing: 0.04em;
 }
