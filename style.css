@@ -61,7 +61,7 @@ nav.scrolled {
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: 24px;
 }
 
 .logo {
@@ -204,12 +204,15 @@ nav.scrolled {
 }
 
 .hero-hello {
-  position: relative;
-  bottom: 128px;
-  left: 96px;
+  position: absolute;
+  /* Change from relative to absolute */
+  top: 20%;
+  /* Adjust as needed */
+  left: 10%;
+  /* Adjust as needed */
   font-family: 'Josefin Sans', sans-serif;
   font-size: clamp(110px, 17vw, 250px);
-  font-weight: 100;
+  font-weight: 180;
   letter-spacing: -0.03em;
   line-height: 0.88;
   color: var(--text);
@@ -220,18 +223,21 @@ nav.scrolled {
 }
 
 .hero-matthew {
-  position: relative;
-  bottom: 128px;
-  left: 96px;
+  position: absolute;
+  /* Change from relative to absolute */
+  top: 66%;
+  /* Adjust as needed */
+  left: 80px;
+  /* Adjust as needed */
   font-family: 'Josefin Sans', sans-serif;
-  font-size: clamp(85px, 17vw, 250px);
-  font-weight: 100;
-  letter-spacing: -0.03em;
-  line-height: 0.88;
+  font-size: clamp(55px, 12vw, 200px);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1;
   color: var(--text);
   z-index: 2;
   opacity: 0;
-  animation: fadeUp 0.9s ease 0.1s forwards;
+  animation: fadeUp 1s ease 0.2s forwards;
   user-select: none;
 }
 
@@ -317,12 +323,18 @@ nav.scrolled {
   background: var(--border);
 }
 
+.divider-first {
+  width: 100%;
+  height: 3px;
+  background: var(--border)
+}
+
 .section-tag {
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: #6e6c67;
   margin-bottom: 12px;
 }
 
